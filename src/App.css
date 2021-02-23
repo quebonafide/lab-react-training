@@ -36,3 +36,9 @@
     transform: rotate(360deg);
   }
 }
+
+.driverPhoto{
+  height: 80px;
+  width: auto;
+  border-radius: 50%;
+}
