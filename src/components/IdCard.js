@@ -11,7 +11,7 @@ const IdCard = (props) => {
                 <p><strong>First name: </strong>{props.firstName}</p>
                 <p><strong>Last name: </strong>{props.lastName}</p>
                 <p><strong>Gender: </strong>{props.gender}</p>
-                <p><strong>Height: </strong>{props.height} m</p>
+                <p><strong>Height: </strong>{props.height/100}m</p>
                 <p><strong>Birth: </strong>{props.birth.getDate()}/{props.birth.getMonth()}/{props.birth.getFullYear()}</p>
             </div>
         </div>
