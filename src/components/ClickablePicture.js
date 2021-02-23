@@ -7,11 +7,11 @@ export default class  extends Component {
         glasses: '/img/persons/maxence-glasses.png'
     }
 
-      clickHandler = () => {
+    clickHandler = () => {
         this.setState((state, props) => ({
             clicked: !state.clicked
         }))
-      }
+    }
 
     render() {
         return (
