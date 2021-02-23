@@ -42,3 +42,20 @@
   width: auto;
   border-radius: 50%;
 }
+
+.table {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.square {
+  height: 50px;
+  width: 50px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  border-collapse: collapse;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

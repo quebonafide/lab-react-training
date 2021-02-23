@@ -39,7 +39,6 @@ export default class Carousel extends Component {
                 <img src= {this.props.imgs[this.state.index]} alt='face'/>
                 <button onClick={this.rightClickHandler}>{this.state.counter} right</button>
             </div>
-
         )
     }
 }
